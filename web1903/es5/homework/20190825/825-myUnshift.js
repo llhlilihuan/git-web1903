@@ -12,7 +12,7 @@ Array.prototype.myUnshift = function(){
         //var item = arguments[key];
         //this[key+(+len)] = item;
     //}
-    return this.length;
+    return this.length + arguments.length;
 }
 
 var arr = ["qgw",1,4,8,9];
